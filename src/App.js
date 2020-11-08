@@ -1,6 +1,5 @@
-const config = require('config');
 const api = {
-  key: config.get('WEATHER_API_KEY'),
+  key: process.env.REACT_APP_WEATHER_API_KEY,
   base: 'https://api.openweathermap.org/data/2.5/'
 }
 function App() {
