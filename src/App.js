@@ -5,7 +5,7 @@ const api = {
 }
 function App() {
 
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState('New York');
   const [weather, setWeather] = useState({});
 
   const search = evt => {
